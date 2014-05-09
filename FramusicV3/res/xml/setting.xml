@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="battery_saving_key"
+        android:title="Battery Saving" >
+        <Preference
+            android:key="battery_bottom_line"
+            android:layout="@layout/preference"
+            android:summary="Do the action under when battery is under:"
+            android:title="Set Battery Bottom line" >
+        </Preference>
+
+        <SwitchPreference
+            android:key="stop_slide"
+            android:layout="@layout/settingpreference"
+            android:title="Stop Sliding Show" android:selectable="false" android:switchTextOn="ON" android:switchTextOff="OFF"/>
+        <SwitchPreference
+            android:key="stop_music"
+            android:layout="@layout/settingpreference"
+            android:title="Stop Playing Music" android:selectable="false" android:switchTextOn="ON" android:switchTextOff="OFF"/>
+        <SwitchPreference
+            android:key="quit_app"
+            android:layout="@layout/settingpreference"
+            android:title="Quit Framusic" android:selectable="false" android:switchTextOn="ON" android:switchTextOff="OFF"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="alarm_key"
+        android:title="ALARMS" >
+        <SwitchPreference
+            android:key="alarm_on_off"
+            android:layout="@layout/settingpreference"
+            android:title="Alarm On or Off" android:switchTextOn="ON" android:switchTextOff="OFF" android:disableDependentsState="true" android:selectable="false"/>
+
+        <Preference
+            android:key="start_play_music_at"
+            android:layout="@layout/preference"
+            android:summary="Start playing music at:"
+            android:title="Start Playing Music" >
+        </Preference>
+        <Preference
+            android:key="stop_play_music_at"
+            android:layout="@layout/preference"
+            android:summary="Stop playing music at:"
+            android:title="Stop Playing Music" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

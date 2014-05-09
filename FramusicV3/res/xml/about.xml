@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:key="Framusic_Image_key" >
+        <Preference
+            android:icon="@drawable/initpintu"
+            android:key="framusic_image_key"
+            android:layout="@layout/preferenceaboutimage" >
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="preference_key"
+        android:title="About" >
+        <Preference
+            android:key="author"
+            android:layout="@layout/preference"
+            android:summary="Team 8: \nQi Li A20298443\nRaakesh Dhanasekaran A20315659\nRuhinabanu Shaikh A20313773\nYabin Song A20304336\nin Alphabetical"
+            android:title="Author" >
+        </Preference>
+        <Preference
+            android:key="version"
+            android:layout="@layout/preference"
+            android:summary="1.0"
+            android:title="Version" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

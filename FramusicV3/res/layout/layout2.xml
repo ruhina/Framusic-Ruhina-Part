@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202020"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="252dp"
+        android:layout_height="304dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="35dp" >
+
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableRow
+                android:layout_width="252dp"
+                android:layout_height="match_parent"
+                android:background="#FFF0FF" >
+
+                <Button
+                    android:id="@+id/btn2_1"
+                    android:layout_width="125dp"
+                    android:layout_height="304dp"
+                    android:layout_marginRight="1dp"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/btn2_2"
+                    android:layout_width="125dp"
+                    android:layout_height="304dp"
+                    android:layout_marginLeft="1dp"
+                    android:text="+" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/image2_1"
+                    android:layout_width="125dp"
+                    android:layout_height="304dp"
+                    android:layout_marginRight="1dp" />
+
+                <ImageView
+                    android:id="@+id/image2_2"
+                    android:layout_width="125dp"
+                    android:layout_height="304dp"
+                    android:layout_marginLeft="1dp" />
+            </TableRow>
+        </TableLayout>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_save2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frameLayout1"
+        android:layout_centerHorizontal="true"
+        android:text="Save" />
+
+</RelativeLayout>

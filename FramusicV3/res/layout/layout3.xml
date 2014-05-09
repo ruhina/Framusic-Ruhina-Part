@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#202020" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="252dp"
+        android:layout_height="302dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp" >
+    
+    
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:background="#FFF0FF" >
+
+            <Button
+                android:id="@+id/btn6_1"
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/btn6_2"
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:text="+" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:background="#FFF0FF" >
+
+            <Button
+                android:id="@+id/btn6_3"
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/btn6_4"
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:text="+" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="152dp" >
+
+            <ImageView
+                android:id="@+id/image6_1"
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp" />
+
+            <ImageView
+                android:id="@+id/image6_2"
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="152dp" >
+
+            <ImageView
+                android:id="@+id/image6_3"
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp" />
+
+            <ImageView
+                android:id="@+id/image6_4"
+                android:layout_width="125dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp" />
+        </TableRow>
+    </TableLayout>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:text="Save" />
+
+</RelativeLayout>
